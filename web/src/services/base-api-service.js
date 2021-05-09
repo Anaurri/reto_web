@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+export const currentCartStorageKey = 'current-cart';
 
 const http = axios.create({
     withCredentials: true,
