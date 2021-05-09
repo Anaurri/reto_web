@@ -25,12 +25,12 @@ Como habrás podido comprobar esta aplicación es muy sencilla, pero no te vamos
 
 - Typescript
 - GraphQL
-- Mongo
+- SI --> Mongo
 - Redux
-- Hooks
+- SI --> Hooks
 - Styled Components
-- Docker
-- Eres capaz de subir a producción la página
+- SI --> Docker
+- SI --> Eres capaz de subir a producción la página
 - ...
 
 Los límites los pones TU, demuestra el motivo de que acabemos eligiendote para el puesto.
@@ -42,3 +42,26 @@ Ahora bien, el limite de entrega es el Viernes 7 a las 11:00 am.
 
 
 Para comenzar con el reto haz fork del repositorio y para entregarlo no olvides hacer PR. Currate un Readme.MD bueno si no se adjuntan las instrucciones para correr el repo tu candidatura quedará invalidada.
+
+
+__________________________________________________________________________________________________________________
+
+## Mi reto 
+
+
+1. Escribir una API REST en el lenguaje que te resulte más cómodo (NodeJS, Rails, Java) que:
+- Tenga 1 endpoint `/teléfonos`
+- Tenga 1 endpoint `/teléfonos/detail`
+- Tenga 1 endpoint `/teléfonos/carrito`
+- Cargamos "phones.json" en Mongo con un script.js
+- Las imágenes las guardamos en cloudinary
+
+ 2. Escribir una aplicación de React que muestre los teléfonos de la API Utilizando HOOKS
+ - Utilice Axios (o una biblioteca similar) para obtener datos de la API REST.
+ - Mostrar una lista inicial con todos los teléfonos
+ - Cuando se selecciona un modelo de teléfono de la lista, se muestra una vista detallada del teléfono que muestra algunos detalles más sobre el mismo.
+ - Mostrar un componente tipo spinner o de marcador de posición mientras la solicitud de la API está en curso.
+ - Haz que se vea decente. No hay necesidad de un diseño súper sofisticado, pero como mínimo, hazlo algo sensible para que no se vea terrible en un teléfono móvil. Añade imágenes para cada dispositivo.
+
+3. Docker y Heroku
+4. Envía el código a un repositorio público de github con un README.md que explique cómo ejecutar la API y la aplicación Frontend.
